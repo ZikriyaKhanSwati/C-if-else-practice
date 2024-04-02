@@ -1,7 +1,7 @@
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
-
+// this is balance practice code
 int main() {
     cout << "Withdraw amount = Rs";
     double withdraw,newBalance;
