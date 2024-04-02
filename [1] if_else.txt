@@ -1,0 +1,115 @@
+if else
+next : (we will see % in if else)
+*****************************************************
+for loop
+while
+arrays
+functions
+*****************************************************
+
+
+AND opeator
+2 orange && 2 apple 
+
+OR opeator
+2 orange || 2 apple
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    
+   float grade;
+   cout<<"Enter Grade : ";
+   cin>>grade;
+   
+   if(grade>=50 && grade<60 ){
+       cout<<"Your grade is C"<<endl;
+   }
+   else if(grade >=60 && grade<70){
+       cout<<"Your grade is B"<<endl;
+   }
+   else if(grade >=70 && grade<80){
+       cout<<"Your grade is A"<<endl;
+   }
+   else if(grade >=80 && grade<=100){
+       cout<<"Your grade is A+"<<endl;
+   }
+   else{
+        cout<<"Failed";
+   }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    // take input form user 2 numbers
+    // check if num1 > num2 then print num1 is greater
+    // check if num2 > num1 then print num2 is greater
+    // if both equal print both are equal
+
+    float num1, num2;
+    cout << "enter a number : ";
+    cin >> num1;
+    cout << "enter another number : ";
+    cin >> num2;
+    
+    if (num1>num2){
+        cout << num1 << " is greater";
+        
+    }
+    else if (num2>num1){
+        cout << num2 << " is greater";
+        
+    }
+    else {
+        cout << num1 << " and " << num2 << " are equal ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+TASKS
+******
+1- 
+take a number input from user
+check if the number is negative
+check if the number is positive
+check if the number is zero
+
+2- 
+take a single character input from user
+check if the character is vowel or consonant
+also handle the case for invalid input
+
+tip for 2nd task
+we compare like this
+character=='a' (single quotes '' and == for comparision)
+
